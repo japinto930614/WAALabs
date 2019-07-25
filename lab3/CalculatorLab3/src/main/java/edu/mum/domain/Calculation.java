@@ -11,6 +11,13 @@ public class Calculation implements Serializable {
     private Integer multiplier;
     private Integer product;
 
+    public Calculation(Integer addend1, Integer addend2, Integer sum, Integer multiplicand, Integer multiplier, Integer product) {
+        this.addend1 = addend1;
+        this.addend2 = addend2;
+        this.multiplicand = multiplicand;
+        this.multiplier = multiplier;
+    }
+
     public Integer getAddend1() {
         return addend1;
     }

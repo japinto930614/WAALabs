@@ -22,24 +22,21 @@ public class CalculatorController {
 
 
     @RequestMapping()
-    public String getProductForm(Model model) {
+    public String getCalculationForm(Model model) {
         model.addAttribute("calculations", calculationService.getAll());
         return "CalculationForm";
     }
 
     @RequestMapping(method = RequestMethod.POST)
     public String saveCalculation(Calculation calculation) {
-        System.out.println(product.getCategory());
-        Category category = categoryService.getCategory(product.getCategory().getId());
-        product.setCategory(category);
-        productService.save(product);
-        return "ProductDetails";
+        CalculationService.save(calculation);
+        return "CalculationDetails";
     }
 
-    @RequestMapping("/listproducts")
-    public String listProducts(Model model) {
-        model.addAttribute("products", productService.getAll());
-        return "ListProducts";
+    @RequestMapping("/listCalculations")
+    public String listCalculations(Model model) {
+        model.addAttribute("Calculations", CalculationService.getAll());
+        return "ListCalculations";
     }
 
 //    @RequestMapping(value = { "/", "/calc2" })
@@ -51,15 +48,15 @@ public class CalculatorController {
 //    public String saveCalculation(Calculation calculation, HttpServletRequest request, HttpServletResponse response) {
 //        List<String> errors = calculationValidator.validate(calculation);
 //        if (errors.isEmpty()) {
-//            // store product in a scope variable for the view
+//            // store Calculation in a scope variable for the view
 //            calculation.setSum(calculation.getAddend1() + calculation.getAddend2());
-//            calculation.setProduct(calculation.getMultiplicand() * calculation.getMultiplier());
+//            calculation.setCalculation(calculation.getMultiplicand() * calculation.getMultiplier());
 //
 //            request.setAttribute("calculation", calculation);
 //            return "/WEB-INF/result.jsp";
 //        } else {
 //
-//            // store errors and product in a scope variable for the view
+//            // store errors and Calculation in a scope variable for the view
 //            request.setAttribute("errors", errors);
 //            request.setAttribute("form", calculation);
 //            return "/WEB-INF/calculator.jsp";
