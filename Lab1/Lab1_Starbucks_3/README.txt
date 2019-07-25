@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=MVCFramework.jar -DgroupId=edu.mum.cs -DartifactId=mvcframework -Dversion=1.0.0 -Dpackaging=jar
