@@ -8,5 +8,9 @@ import java.util.Map;
 public interface CalculationService {
     public List<Calculation> getAll();
 
-    public void save(Calculation Calculation);
+    public void save(Calculation calculation);
+
+    public void sum(Calculation calculation);
+
+    public void multiply(Calculation calculation);
 }

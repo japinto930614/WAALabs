@@ -22,4 +22,16 @@ public class CalculationServiceImpl implements CalculationService {
     public void save(Calculation calculation) {
         calculationRepository.save(calculation);
     }
+
+    public void sum(Calculation calculation) {
+        int addend1 = calculation.getAddend1();
+        int addend2 = calculation.getAddend2();
+        calculation.setSum(addend1 + addend2);
+    }
+
+    public void multiply(Calculation calculation) {
+        int multiplicand = calculation.getMultiplicand();
+        int multiplier = calculation.getMultiplier();
+        calculation.setProduct(multiplicand * multiplier);
+    }
 }

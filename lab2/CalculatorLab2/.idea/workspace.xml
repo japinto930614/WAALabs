@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5ee0e70-eb7f-4806-85d4-85b8b08aff73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab3/CalculatorLab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab3/CalculatorLab3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/repositoryimpl/CategoryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/repositoryimpl/CategoryRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/serviceimpl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/java/edu/mum/serviceimpl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/src/main/webapp/WEB-INF/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/webapp/WEB-INF/config/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/src/main/webapp/WEB-INF/jsp/ProductForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/domain/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/domain/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/domain/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repository/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repository/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repositoryimpl/CategoryRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repositoryimpl/CategoryRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/serviceimpl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/serviceimpl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/serviceimpl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab4/Product04a/target/classes/edu/mum/serviceimpl/ProductServiceImpl.class" afterDir="false" />
-    </list>
+    <list default="true" id="a5ee0e70-eb7f-4806-85d4-85b8b08aff73" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

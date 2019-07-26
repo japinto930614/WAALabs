@@ -2,7 +2,6 @@ package edu.mum.controller;
 
 import edu.mum.domain.Calculation;
 import edu.mum.service.CalculationService;
-import edu.mum.validator.CalculationValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,9 +12,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@RequestMapping("/calculation")
+//@RequestMapping("/calculation")
+@RequestMapping("/")
 @Controller
 public class CalculatorController {
+
+
 
     @Autowired
     private CalculationService calculationService;
@@ -24,19 +26,30 @@ public class CalculatorController {
     @RequestMapping()
     public String getCalculationForm(Model model) {
         model.addAttribute("calculations", calculationService.getAll());
-        return "CalculationForm";
+        return "calculator";
     }
+
 
     @RequestMapping(method = RequestMethod.POST)
     public String saveCalculation(Calculation calculation) {
-        CalculationService.save(calculation);
-        return "CalculationDetails";
+        calculationService.save(calculation);
+        return "result";
     }
 
-    @RequestMapping("/listCalculations")
+    @RequestMapping("/result")
+    public String calculate(Calculation calculation , Model model) {
+        calculationService.sum(calculation);
+        calculationService.multiply(calculation);
+
+        model.addAttribute("Calculations", calculationService.getAll());
+
+        return "result";
+    }
+
+    @RequestMapping("/calculator")
     public String listCalculations(Model model) {
-        model.addAttribute("Calculations", CalculationService.getAll());
-        return "ListCalculations";
+        model.addAttribute("Calculations", calculationService.getAll());
+        return "calculator";
     }
 
 //    @RequestMapping(value = { "/", "/calc2" })

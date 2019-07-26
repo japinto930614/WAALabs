@@ -17,6 +17,8 @@ public class CalculationRepositoryImpl implements CalculationRepository {
 
 
     public void save(Calculation calculation) {
+
         calculations.add(calculation);
+        return;
     }
 }
