@@ -14,11 +14,13 @@ public class ProductServiceImpl implements ProductService {
 	
 	@Autowired
 	ProductRepository productRepository;
-	
-    	public List<Product> getAll() {
+
+	@Override
+	public List<Product> getAll() {
 		return productRepository.getAll();
 	}
-	
+
+	@Override
 	public void save(Product product) {
 		productRepository.save(product);
 		return ;

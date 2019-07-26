@@ -3,6 +3,7 @@ package edu.mum.repositoryimpl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import edu.mum.domain.Category;
@@ -12,7 +13,8 @@ import edu.mum.repository.CategoryRepository;
  public class CategoryRepositoryImpl implements CategoryRepository {
 	
  	    private List<Category> categories;
- 	    
+
+
 	    public CategoryRepositoryImpl() {
 	        categories = new ArrayList<Category>();
 	        Category computerCategory = new Category(1, "Computer");

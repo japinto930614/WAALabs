@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -15,9 +16,11 @@ import edu.mum.service.ProductService;
 
 @Controller
 public class ProductController {
- 
+
+    @Autowired
 	ProductService productService;
- 	
+
+
 	CategoryService categoryService;
 	
 	ProductController() {
@@ -31,14 +34,14 @@ public class ProductController {
 		this.productService = productService;
 	}
  	
-    @RequestMapping(value={"/","/product"}, method = RequestMethod.GET)
-    public String inputProduct(Model model) {
- 
-        List<Category> categories = categoryService.getAll();
-        model.addAttribute("categories", categories);
-      
-        return "ProductForm";
-    }
+//    @RequestMapping(value={"/","/product"}, method = RequestMethod.GET)
+//    public String inputProduct(Model model) {
+//
+//        List<Category> categories = categoryService.getAll();
+//        model.addAttribute("categories", categories);
+//
+//        return "ProductForm";
+//    }
 
 
 	@RequestMapping(value="/product", method = RequestMethod.POST)
@@ -49,7 +52,7 @@ public class ProductController {
         public String saveProduct(Model model ) {
     	Product product = new Product();
     	model.addAttribute(product);
-*/  
+*/
     	Category category = categoryService.getCategory(product.getCategory().getId());
         product.setCategory(category);
 
@@ -68,8 +71,9 @@ public class ProductController {
     	
         return "ListProducts";
     }
+
     
-  /*  @RequestMapping(value={"/","/product"}, method = RequestMethod.GET)
+    @RequestMapping(value={"/","/product"}, method = RequestMethod.GET)
     public String inputProduct(Product oldProduct, Product newProduct, Model model) {
  
     	// Which "product" "survives in model [ both can NOT be in Map...?
@@ -89,6 +93,6 @@ public class ProductController {
      
    	return "ProductForm";
     }
- */
-    
+
+
 }
