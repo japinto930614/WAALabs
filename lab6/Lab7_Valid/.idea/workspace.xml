@@ -6,20 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9cd497-3deb-45a2-a43b-ccf907c2fa74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/students/validator/StudentValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/students/contoller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/students/contoller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/students/domain/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/students/domain/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/students/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/students/domain/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/errorMessages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/errorMessages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT/WEB-INF/classes/com/students/contoller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT/WEB-INF/classes/com/students/contoller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT/WEB-INF/views/registration.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/Lab7_Valid-0.0.1-SNAPSHOT/WEB-INF/views/registration.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/students/contoller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/students/contoller/StudentController.class" afterDir="false" />
-    </list>
+    <list default="true" id="bf9cd497-3deb-45a2-a43b-ccf907c2fa74" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/students/contoller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="263">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -111,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/students/validator/StudentValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
+            <state relative-caret-position="225">
               <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -409,18 +396,17 @@
       <option name="presentableId" value="Default" />
       <updated>1564357377982</updated>
       <workItem from="1564357381707" duration="2107000" />
-      <workItem from="1564411474458" duration="4623000" />
+      <workItem from="1564411474458" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6730000" />
+    <option name="totallyTimeSpent" value="6978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -430,7 +416,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -540,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/students/contoller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/students/domain/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -594,13 +573,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/students/validator/StudentValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="225">
           <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/students/contoller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
