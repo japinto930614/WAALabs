@@ -24,7 +24,7 @@
 
 
 </c:if>
-<form action="result" method="post">
+<form action="calculate" method="post">
     <input type = "text" name = "addend1" size = "2"  value = "${calculation.addend1}" />+
     <input type = "text" name = "addend2" value = "${calculation.addend2}" size = "2"/>=<input type = "text" name = "sum" value = "${calculation.sum}"  size = "2" readonly/><br/>
     <input type = "text" name = "multiplicand" value = "${calculation.multiplicand}" size = "2"/>*
