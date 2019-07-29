@@ -15,17 +15,33 @@ import org.springframework.format.annotation.DateTimeFormat;
 public class Student {
 	
 	private Integer id;
-	
+
+	@NotEmpty // any characters including "space"
+//	 @NotNull
+//	 @NotBlank // must have characters BESIDES "space"
+	@Size(min = 4, max = 50, message = "{Size.name.validation}")
  	private String firstName = null;
-	
+
+	@NotEmpty // any characters including "space"
+//	 @NotNull
+//	 @NotBlank // must have characters BESIDES "space"
+	@Size(min = 4, max = 50, message = "{Size.name.validation}")
  	private  String lastName  = null;
-	
+
+	@Email(message = "{Student.email}")
  	private String email = null;
 	
  	private String gender = null;
-	
+
+	@NotNull
+	@DateTimeFormat(pattern = "MM/dd/yyyy")
+	// @DateTimeFormat(iso = ISO.DATE) // yyyy-MM-dd
+	// @DateTimeFormat(style = "L-") // July 12, 2001
+	// @DateTimeFormat(pattern="hh:mm:ss")
+	@Past
     private Date birthday;
- 
+
+	@Valid
 	private Phone phone;
 
   	public Integer getId() {
