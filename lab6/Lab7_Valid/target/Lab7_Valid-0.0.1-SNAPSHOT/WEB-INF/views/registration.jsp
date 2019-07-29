@@ -57,7 +57,11 @@
 
         <p>
             <label for="gender">Gender: </label>
-                <form:input path="gender"/>
+            <form:select path="gender">
+                <form:option value = "" label="Select a gender"/>
+                <form:option value="Male" label="Male" />
+                <form:option value="Female" label="Female" />
+            </form:select>
         <div style="text-align: left;">
             <form:errors path="gender" cssStyle="color : red;"/>
         </div>

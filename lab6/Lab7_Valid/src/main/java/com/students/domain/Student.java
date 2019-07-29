@@ -30,7 +30,8 @@ public class Student {
 
 	@Email(message = "{Student.email}")
  	private String email = null;
-	
+
+	@NotEmpty(message = "{Student.gender}")
  	private String gender = null;
 
 	@NotNull
