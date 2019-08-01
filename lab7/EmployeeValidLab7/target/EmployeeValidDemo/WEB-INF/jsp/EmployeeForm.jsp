@@ -20,7 +20,7 @@
 </section>
 
 <div id="global">
-    <form:form modelAttribute="employee" action="employee_save" method="post">
+    <form:form modelAttribute="employee" action="employee_save" method="post" enctype="multipart/form-data">
         <fieldset>
                 <%--				<legend>Add an employee</legend>--%>
             <legend><spring:message code="addEmployee.form.addEmployee.label"/></legend>

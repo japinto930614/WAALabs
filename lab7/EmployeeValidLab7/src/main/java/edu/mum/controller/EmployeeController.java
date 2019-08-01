@@ -11,8 +11,11 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.multipart.MultipartFile;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.io.File;
 
 @Controller
 public class EmployeeController {
@@ -26,7 +29,7 @@ public class EmployeeController {
 
 	@RequestMapping(value = "/employee_save")
 	public String saveEmployee(@Valid Employee emp, BindingResult bindingResult,
-							   Model model) {
+							   Model model, HttpServletRequest request) {
 		
 		if (bindingResult.hasErrors()) {
 			return "EmployeeForm";
@@ -38,7 +41,19 @@ public class EmployeeController {
 					+ StringUtils.addStringToArray(suppressedFields, ", "));
 		}
 
-		// save product here
+		MultipartFile employeeImage = emp.getEmployeeImage();
+		String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+		if (employeeImage != null && !employeeImage.isEmpty()) {
+			try {
+				System.out.println(rootDirectory + "resources\\images\\" + emp.getId()+ ".png");
+				employeeImage.transferTo(
+						new File(rootDirectory + "resources\\images\\" + emp.getId() + ".png"));
+			} catch (Exception e) {
+				throw new RuntimeException("Employee Image saving failed", e);
+			}
+		}
+
+		// save employee here
 		model.addAttribute("employee", emp);
 
 		return "EmployeeDetails";

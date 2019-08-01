@@ -7,34 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf5617d5-76c1-4f58-a3f5-419bbb8a3b88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/artifacts/EmployeeValidLab7_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/config/DispatcherServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/config/RootApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/config/WebApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/interceptor/ProcessingTimeLogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/validator/MemberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/resources/errorMessages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/resources/messages_es.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/MemberDetails.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/MemberForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/images/Puppet404.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/images/error_page.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab6/Lab7_Valid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab6/Lab7_Valid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -166,7 +142,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
@@ -176,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,6 +254,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,17 +379,18 @@
       <workItem from="1564504636556" duration="4230000" />
       <workItem from="1564537875686" duration="1965000" />
       <workItem from="1564684625006" duration="560000" />
+      <workItem from="1564690941899" duration="580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12288000" />
+    <option name="totallyTimeSpent" value="12868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
