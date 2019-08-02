@@ -7,9 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4a8989a-905f-4666-96d6-cb6c5cf3e5d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/interceptor/ProcessingTimeLogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/java/edu/mum/validator/MemberValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/errorMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/templates/EmployeeDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/templates/EmployeeForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/templates/MemberDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/templates/MemberForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab8/EmployeeValidLab8/src/main/resources/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab5/CalculatorPRG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab5/CalculatorPRG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,18 +42,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/config/WebApplicationContextConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/config/DispatcherServletInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -52,11 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="151">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MemberDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/domain/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="975">
-              <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+              <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+            <state relative-caret-position="100">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
@@ -164,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/domain/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/mum/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" />
       </list>
     </option>
   </component>
@@ -435,12 +452,12 @@
       <updated>1564673588674</updated>
       <workItem from="1564673593492" duration="6072000" />
       <workItem from="1564684629594" duration="4540000" />
-      <workItem from="1564690946892" duration="602000" />
+      <workItem from="1564690946892" duration="2249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11214000" />
+    <option name="totallyTimeSpent" value="12861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -465,8 +482,8 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Debug" order="12" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="11" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="15" />
@@ -635,14 +652,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/domain/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
-          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          <caret line="104" column="1" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        <state relative-caret-position="100">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
@@ -653,8 +670,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="151">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MemberDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
         </state>
       </provider>
     </entry>

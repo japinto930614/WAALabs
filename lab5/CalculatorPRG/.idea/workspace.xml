@@ -7,10 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf5617d5-76c1-4f58-a3f5-419bbb8a3b88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/java/edu/mum/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab7/EmployeeValidLab7/src/main/webapp/WEB-INF/jsp/EmployeeForm.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -379,12 +377,12 @@
       <workItem from="1564504636556" duration="4230000" />
       <workItem from="1564537875686" duration="1965000" />
       <workItem from="1564684625006" duration="560000" />
-      <workItem from="1564690941899" duration="580000" />
+      <workItem from="1564690941899" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12868000" />
+    <option name="totallyTimeSpent" value="12941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
