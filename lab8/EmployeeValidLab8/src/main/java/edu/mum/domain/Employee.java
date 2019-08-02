@@ -18,7 +18,7 @@ public class Employee implements Serializable {
 	@NotEmpty // any characters including "space"
 //	 @NotNull
 //	 @NotBlank // must have characters BESIDES "space"
-	@Size(min = 4, max = 50, message = "{Size.name.validation}")
+	@Size(min = 4, max = 50, message = "{employee.firstname}")
 	private String firstName;
 	
 	@NotEmpty(message = "Enter the last name")

@@ -1,80 +1,115 @@
 <!DOCTYPE HTML>
-<html>
+<html xmlns:th="http://www.thymeleaf.org/">
 <head>
+    <meta charset="UTF-8">
     <title>Add Employee Form</title>
-    <link rel="stylesheet" type="text/css" href="<c:url value="/css/main.css"/>">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
 <div id="global">
-    <form:form modelAttribute="employee" action="employee_save" method="post">
+    <!--    <form:form modelAttribute="employee" action="employee_save" method="post">-->
+    <form action="#" th:action="@{/employee_save}" th:object="${employee}"
+          method="post">
         <fieldset>
             <legend>Add an employee</legend>
-            <p>
-                <form:errors path="*" cssStyle="color : red;" />
-            </p>
+            <!--            <p>-->
+            <!--                <form:errors path="*" cssStyle="color : red;" />-->
+            <!--            </p>-->
+            <ul th:if="${#fields.hasErrors('*')}">
+                <li th:each="err : ${#fields.errors('*')}" th:text="${err}">Input
+                    is incorrect
+                </li>
+            </ul>
             <p>
                 <label for="id">ID: </label>
-                <form:input path="id" id="id" />
+                <!--                <form:input path="id" id="id" />-->
+                <input type="text" id="id" th:field="*{id}"/>
             <div style="text-align: center;">
-                <form:errors path="id" cssStyle="color : red;" />
+                <!--                <form:errors path="id" cssStyle="color : red;" />-->
+                <span th:if="${#fields.hasErrors('id')}" th:errors="*{id}"
+                      th:errorclass="fieldError">Incorrect id</span>
             </div>
             </p>
             <p>
                 <label for="firstName">First Name: </label>
-                <form:input path="firstName" />
+                <!--                <form:input path="firstName" />-->
+                <input type="text" id="firstName" th:field="*{firstName}"/>
             <div style="text-align: center;">
-                <form:errors path="firstName" cssStyle="color : red;" />
+                <!--                <form:errors path="firstName" cssStyle="color : red;"/>-->
+                <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </div>
             </p>
             <p>
                 <label for="lastName">Last Name: </label>
-                <form:input path="lastName" />
+                <!--                <form:input path="lastName" />-->
+                <input type="text" id="lastName" th:field="*{lastName}"/>
             <div style="text-align: center;">
-                <form:errors path="lastName" cssStyle="color : red;" />
+                <!--                <form:errors path="lastName" cssStyle="color : red;"/>-->
+                <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </div>
             </p>
 
             <p>
                 <label for="birthDate">Date Of Birth: </label>
-                <form:input path="birthDate" id="birthDate" />
-                <form:errors path="birthDate" cssStyle="color : red;" />
+                <!--                <form:input path="birthDate" id="birthDate" />-->
+                <input type="text" id="birthDate" th:field="*{birthDate}"/>
+                <!--                <form:errors path="birthDate" cssStyle="color : red;"/>-->
+                <span th:if="${#fields.hasErrors('birthDate')}" th:errors="*{birthDate}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </p>
             <p>
                 <label for="salaryLevel">Salary: </label>
-                <form:input path="salaryLevel" id="salaryLevel" />
+                <!--                <form:input path="salaryLevel" id="salaryLevel" />-->
+                <input type="text" id="salaryLevel" th:field="*{salaryLevel}"/>
             <div style="text-align: center;">
-                <form:errors path="salaryLevel" cssStyle="color : red;" />
+                <!--                <form:errors path="salaryLevel" cssStyle="color : red;"/>-->
+                <span th:if="${#fields.hasErrors('salaryLevel')}" th:errors="*{salaryLevel}"
+                      th:errorclass="fieldError">Incorrect field</span>
+
             </div>
             </p>
             <h4>Address:</h4>
             <p>
                 <label for="street">Street: </label>
-                <form:input path="address.street" id="street" />
+                <!--                <form:input path="address.street" id="street" />-->
+                <input type="text" id="street" th:field="*{address.street}"/>
             <div style="text-align: center;">
-                <form:errors path="address.street" cssStyle="color : red;" />
+                <!--                <form:errors path="address.street" cssStyle="color : red;"/>-->
+                <span th:if="${#fields.hasErrors('address.street')}" th:errors="*{address.street}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </div>
             </p>
             <p>
                 <label for="state">State: </label>
-                <form:input path="address.state" id="state" />
+                <!--                <form:input path="address.state" id="state" />-->
+                <input type="text" id="state" th:field="*{address.state}"/>
             <div style="text-align: center;">
-                <form:errors path="address.state" cssStyle="color : red; " />
+                <!--                <form:errors path="address.state" cssStyle="color : red; "/>-->
+                <span th:if="${#fields.hasErrors('address.state')}" th:errors="*{address.state}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </div>
             </p>
             <p>
                 <label for="zipCode">Zip: </label>
-                <form:input path="address.zipCode" id="zipCode" />
+                <!--                <form:input path="address.zipCode" id="zipCode" />-->
+                <input type="text" id="zipCode" th:field="*{address.zipCode}"/>
             <div style="text-align: center;">
-                <form:errors path="address.zipCode" cssStyle="color : red; " />
+                <!--                <form:errors path="address.zipCode" cssStyle="color : red; "/>-->
+                <span th:if="${#fields.hasErrors('address.zipCode')}" th:errors="*{address.zipCode}"
+                      th:errorclass="fieldError">Incorrect field</span>
             </div>
             </p>
             <p id="buttons">
                 <input id="reset" type="reset" tabindex="4">
                 <input id="submit" type="submit" tabindex="5" value="Add Employee">
+                <!--                <input id="reset" type="reset" th:value="#{employee.form.resetbtn}" value="Add Employee" tabindex="4"> <input-->
+                <!--                    id="submit" type="submit" tabindex="5" th:value="#{employee.form.addbtn}" value="Add Employee">-->
             </p>
         </fieldset>
-    </form:form>
+    </form>
 </div>
 </body>
 </html>
